@@ -21,7 +21,7 @@ For my first project at 42 Wolfsburg I have written my own library full of C cod
 |		`make bonus`	|	Compile all bonus ft_*.c into libft.a	|
 |		`make clean`	|	Delete all *.o files	|
 |		`make fclean`	|	Delete all *.o files and libft.a	|
-|		`make re`		|	Execute command `make fclean` and `make`	|
+|		`make re`		|	Execute command `fclean` and `make`	|
 
 # <a name="mandi">Mandatory - Part I</a>
 ## Libc Functions
