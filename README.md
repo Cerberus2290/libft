@@ -1,3 +1,6 @@
+# ✋ BEWARE ✋
+## If you are a 42 Student, do not copy/paste this project, it will be considered cheating and you will directly get a -42.
+
 # 42 Cursus in Wolfsburg - libft
 
 My first very own library
