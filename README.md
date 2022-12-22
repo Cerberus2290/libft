@@ -161,6 +161,10 @@ For my first project at 42 Wolfsburg I have written my own library full of C cod
 
 ![Caution_Bonus](https://user-images.githubusercontent.com/120580537/209148675-47f2868a-3e18-48a5-96d7-06e57a131ad1.png)
 
+## You have to use the following structure to represent a node of your list. Add its declaration to your libft.h file:
+
+![typedef](https://user-images.githubusercontent.com/120580537/209154800-05726439-a0ff-456f-84f8-571945e4bd7e.png)
+
 |	Function			|	ft_lstnew	|
 |-----------------------|---------------|
 |	Prototype			|	t_list *ft_lstnew(void *content)	|
