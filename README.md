@@ -160,3 +160,22 @@ For my first project at 42 Wolfsburg I have written my own library full of C cod
 # <a name="bonus">Bonus</a>
 
 ![Caution_Bonus](https://user-images.githubusercontent.com/120580537/209148675-47f2868a-3e18-48a5-96d7-06e57a131ad1.png)
+
+|	Function			|	ft_lstnew	|
+|-----------------------|---------------|
+|	Prototype			|	t_list *ft_lstnew(void *content)	|
+|	Parameters			|	content: The content to create the node with.	|
+|	Return value		|	The new node	|
+|	External functs.	|	malloc		|
+|	Description			|	Allocates (with malloc(3)) and returns a new node. The member variable ’content’ is initialized with the value of the parameter ’content’. The variable ’next’ is initialized to NULL.	|
+
+----------------
+
+|	Function			|	ft_lstadd_front	|
+|-----------------------|---------------|
+|	Prototype			|	void ft_lstadd_front(t_list **lst, t_list *new)	|
+|	Parameters			|	lst: The address of a pointer to the first link of a list.
+|						|	new: The address of a pointer to the node to be added to the list.	|
+|	Return value		|	None	|
+|	External functs.	|	None		|
+|	Description			|	Adds the node ’new’ at the beginning of the list.	|
