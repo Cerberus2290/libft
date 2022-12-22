@@ -156,3 +156,4 @@ For my first project at 42 Wolfsburg I have written my own library full of C cod
 | Return value   	| None |
 | External functs | write |
 | Description    	| Outputs the integer ’n’ to the given file descriptor.	|
+
