@@ -158,3 +158,5 @@ For my first project at 42 Wolfsburg I have written my own library full of C cod
 | Description    	| Outputs the integer ’n’ to the given file descriptor.	|
 
 # <a name="bonus">Bonus</a>
+
+![Caution_Bonus](https://user-images.githubusercontent.com/120580537/209148675-47f2868a-3e18-48a5-96d7-06e57a131ad1.png)
