@@ -17,7 +17,7 @@ For my first project at 42 Wolfsburg I have written my own library full of C cod
 
 4. [Bonus](#bonus)
 
-# <a name="Makefile">Makefile</a>
+# <a name="makefile">Makefile</a>
 
 |		Syntax		|		Result		|
 |-------------------|-------------------|
