@@ -6,13 +6,13 @@
 /*   By: tstrassb <tstrassb@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/16 10:11:36 by tstrassb          #+#    #+#             */
-/*   Updated: 2022/12/16 10:11:36 by tstrassb         ###   ########.fr       */
+/*   Updated: 2022/12/27 14:02:58 by tstrassb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_merge(const char *s1, const char *s2)
+static char	*ft_merge(const char *s1, const char *s2)
 {
 	char	*merge;
 	int		i;

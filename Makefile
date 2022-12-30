@@ -6,7 +6,7 @@
 #    By: tstrassb <tstrassb@student.42wolfsburg.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/15 13:35:08 by tstrassb          #+#    #+#              #
-#    Updated: 2022/12/20 09:14:10 by tstrassb         ###   ########.fr        #
+#    Updated: 2022/12/27 13:32:52 by tstrassb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ OBJS		=	${SRCS:%.c=%.o}
 
 OBJSBONUS	=	${BONUS:%.c=%.o}
 
-CC			=	gcc
+CC			=	cc
 
 RM			=	rm -f
 

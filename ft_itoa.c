@@ -6,7 +6,7 @@
 /*   By: tstrassb <tstrassb@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/16 12:24:28 by tstrassb          #+#    #+#             */
-/*   Updated: 2022/12/16 12:24:28 by tstrassb         ###   ########.fr       */
+/*   Updated: 2022/12/30 09:33:05 by tstrassb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,10 @@ static void	ft_isneg(int *n, int *neg, int *temp)
 	{
 		*neg = 1;
 		*temp = 0;
+	}
+	else if (*n == 0)
+	{
+		*n = 0;
 	}
 }
 

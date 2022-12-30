@@ -6,13 +6,13 @@
 /*   By: tstrassb <tstrassb@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/16 11:06:43 by tstrassb          #+#    #+#             */
-/*   Updated: 2022/12/16 11:06:43 by tstrassb         ###   ########.fr       */
+/*   Updated: 2022/12/27 13:41:32 by tstrassb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_checkset(char c, char const *set)
+static int	ft_checkset(char c, char const *set)
 {
 	int	i;
 
