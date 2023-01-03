@@ -21,7 +21,7 @@ static t_list	*ft_lstapply(t_list *l, t_list *s,
 		if (!s)
 		{
 			ft_lstdelone(s, d);
-			return (NULL);
+			return (0x0);
 		}
 		s->next = ft_lstapply(l->next, s->next, f, d);
 	}
@@ -32,7 +32,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*start;
 
-	start = 0;
+	start = 0x0;
 	start = ft_lstapply(lst, start, f, del);
 	return (start);
 }
