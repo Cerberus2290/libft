@@ -67,7 +67,7 @@ static char	**ft_split_word(char const *s, char c, char **s2, int num_word)
 			word_len++;
 		}
 		s2[word] = (char *)malloc(sizeof(char) * (word_len + 1));
-		if (!s2)
+		if (!s2[word])
 			return (0x0);
 		ft_put(s2[word], s, i, word_len);
 		word_len = 0;
